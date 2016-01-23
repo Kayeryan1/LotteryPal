@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E4E29A1C533AF90066927C /* Poop.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E4E2991C533AF90066927C /* Poop.png */; };
 		94649C691C533678005E37AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C681C533678005E37AB /* AppDelegate.swift */; };
 		94649C6B1C533678005E37AB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6A1C533678005E37AB /* RootViewController.swift */; };
 		94649C6D1C533678005E37AB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6C1C533678005E37AB /* DataViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18E4E2991C533AF90066927C /* Poop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poop.png; sourceTree = "<group>"; };
 		94649C651C533678005E37AB /* LotteryPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94649C681C533678005E37AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94649C6A1C533678005E37AB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		94649C671C533678005E37AB /* LotteryPal */ = {
 			isa = PBXGroup;
 			children = (
+				18E4E2991C533AF90066927C /* Poop.png */,
 				94649C681C533678005E37AB /* AppDelegate.swift */,
 				94649C6A1C533678005E37AB /* RootViewController.swift */,
 				94649C6C1C533678005E37AB /* DataViewController.swift */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94649C771C533678005E37AB /* LaunchScreen.storyboard in Resources */,
+				18E4E29A1C533AF90066927C /* Poop.png in Resources */,
 				94649C741C533678005E37AB /* Assets.xcassets in Resources */,
 				94649C721C533678005E37AB /* Main.storyboard in Resources */,
 			);
@@ -411,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -422,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -492,6 +498,7 @@
 				94649C931C533678005E37AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94649C941C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPalTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +507,7 @@
 				94649C961C533678005E37AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94649C971C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPalUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +516,7 @@
 				94649C991C533678005E37AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
