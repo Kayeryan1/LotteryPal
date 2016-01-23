@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94649C691C533678005E37AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C681C533678005E37AB /* AppDelegate.swift */; };
+		94649C6B1C533678005E37AB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6A1C533678005E37AB /* RootViewController.swift */; };
+		94649C6D1C533678005E37AB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6C1C533678005E37AB /* DataViewController.swift */; };
+		94649C6F1C533678005E37AB /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6E1C533678005E37AB /* ModelController.swift */; };
+		94649C721C533678005E37AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94649C701C533678005E37AB /* Main.storyboard */; };
+		94649C741C533678005E37AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94649C731C533678005E37AB /* Assets.xcassets */; };
+		94649C771C533678005E37AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94649C751C533678005E37AB /* LaunchScreen.storyboard */; };
+		94649C821C533678005E37AB /* LotteryPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C811C533678005E37AB /* LotteryPalTests.swift */; };
+		94649C8D1C533678005E37AB /* LotteryPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C8C1C533678005E37AB /* LotteryPalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94649C7E1C533678005E37AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94649C5D1C533678005E37AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94649C641C533678005E37AB;
+			remoteInfo = LotteryPal;
+		};
+		94649C891C533678005E37AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94649C5D1C533678005E37AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94649C641C533678005E37AB;
+			remoteInfo = LotteryPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94649C651C533678005E37AB /* LotteryPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94649C681C533678005E37AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94649C6A1C533678005E37AB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		94649C6C1C533678005E37AB /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		94649C6E1C533678005E37AB /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		94649C711C533678005E37AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94649C731C533678005E37AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94649C761C533678005E37AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94649C781C533678005E37AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94649C7D1C533678005E37AB /* LotteryPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94649C811C533678005E37AB /* LotteryPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPalTests.swift; sourceTree = "<group>"; };
+		94649C831C533678005E37AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94649C881C533678005E37AB /* LotteryPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotteryPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94649C8C1C533678005E37AB /* LotteryPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotteryPalUITests.swift; sourceTree = "<group>"; };
+		94649C8E1C533678005E37AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94649C621C533678005E37AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94649C7A1C533678005E37AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94649C851C533678005E37AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94649C5C1C533678005E37AB = {
+			isa = PBXGroup;
+			children = (
+				94649C671C533678005E37AB /* LotteryPal */,
+				94649C801C533678005E37AB /* LotteryPalTests */,
+				94649C8B1C533678005E37AB /* LotteryPalUITests */,
+				94649C661C533678005E37AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94649C661C533678005E37AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94649C651C533678005E37AB /* LotteryPal.app */,
+				94649C7D1C533678005E37AB /* LotteryPalTests.xctest */,
+				94649C881C533678005E37AB /* LotteryPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94649C671C533678005E37AB /* LotteryPal */ = {
+			isa = PBXGroup;
+			children = (
+				94649C681C533678005E37AB /* AppDelegate.swift */,
+				94649C6A1C533678005E37AB /* RootViewController.swift */,
+				94649C6C1C533678005E37AB /* DataViewController.swift */,
+				94649C6E1C533678005E37AB /* ModelController.swift */,
+				94649C701C533678005E37AB /* Main.storyboard */,
+				94649C731C533678005E37AB /* Assets.xcassets */,
+				94649C751C533678005E37AB /* LaunchScreen.storyboard */,
+				94649C781C533678005E37AB /* Info.plist */,
+			);
+			path = LotteryPal;
+			sourceTree = "<group>";
+		};
+		94649C801C533678005E37AB /* LotteryPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				94649C811C533678005E37AB /* LotteryPalTests.swift */,
+				94649C831C533678005E37AB /* Info.plist */,
+			);
+			path = LotteryPalTests;
+			sourceTree = "<group>";
+		};
+		94649C8B1C533678005E37AB /* LotteryPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94649C8C1C533678005E37AB /* LotteryPalUITests.swift */,
+				94649C8E1C533678005E37AB /* Info.plist */,
+			);
+			path = LotteryPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94649C641C533678005E37AB /* LotteryPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94649C911C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPal" */;
+			buildPhases = (
+				94649C611C533678005E37AB /* Sources */,
+				94649C621C533678005E37AB /* Frameworks */,
+				94649C631C533678005E37AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotteryPal;
+			productName = LotteryPal;
+			productReference = 94649C651C533678005E37AB /* LotteryPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94649C7C1C533678005E37AB /* LotteryPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94649C941C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPalTests" */;
+			buildPhases = (
+				94649C791C533678005E37AB /* Sources */,
+				94649C7A1C533678005E37AB /* Frameworks */,
+				94649C7B1C533678005E37AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94649C7F1C533678005E37AB /* PBXTargetDependency */,
+			);
+			name = LotteryPalTests;
+			productName = LotteryPalTests;
+			productReference = 94649C7D1C533678005E37AB /* LotteryPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94649C871C533678005E37AB /* LotteryPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94649C971C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPalUITests" */;
+			buildPhases = (
+				94649C841C533678005E37AB /* Sources */,
+				94649C851C533678005E37AB /* Frameworks */,
+				94649C861C533678005E37AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94649C8A1C533678005E37AB /* PBXTargetDependency */,
+			);
+			name = LotteryPalUITests;
+			productName = LotteryPalUITests;
+			productReference = 94649C881C533678005E37AB /* LotteryPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94649C5D1C533678005E37AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = KWhite;
+				TargetAttributes = {
+					94649C641C533678005E37AB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					94649C7C1C533678005E37AB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 94649C641C533678005E37AB;
+					};
+					94649C871C533678005E37AB = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 94649C641C533678005E37AB;
+					};
+				};
+			};
+			buildConfigurationList = 94649C601C533678005E37AB /* Build configuration list for PBXProject "LotteryPal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94649C5C1C533678005E37AB;
+			productRefGroup = 94649C661C533678005E37AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94649C641C533678005E37AB /* LotteryPal */,
+				94649C7C1C533678005E37AB /* LotteryPalTests */,
+				94649C871C533678005E37AB /* LotteryPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94649C631C533678005E37AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94649C771C533678005E37AB /* LaunchScreen.storyboard in Resources */,
+				94649C741C533678005E37AB /* Assets.xcassets in Resources */,
+				94649C721C533678005E37AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94649C7B1C533678005E37AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94649C861C533678005E37AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94649C611C533678005E37AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94649C6B1C533678005E37AB /* RootViewController.swift in Sources */,
+				94649C6F1C533678005E37AB /* ModelController.swift in Sources */,
+				94649C6D1C533678005E37AB /* DataViewController.swift in Sources */,
+				94649C691C533678005E37AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94649C791C533678005E37AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94649C821C533678005E37AB /* LotteryPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94649C841C533678005E37AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94649C8D1C533678005E37AB /* LotteryPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94649C7F1C533678005E37AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94649C641C533678005E37AB /* LotteryPal */;
+			targetProxy = 94649C7E1C533678005E37AB /* PBXContainerItemProxy */;
+		};
+		94649C8A1C533678005E37AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94649C641C533678005E37AB /* LotteryPal */;
+			targetProxy = 94649C891C533678005E37AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94649C701C533678005E37AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94649C711C533678005E37AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94649C751C533678005E37AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94649C761C533678005E37AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94649C8F1C533678005E37AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94649C901C533678005E37AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94649C921C533678005E37AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LotteryPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94649C931C533678005E37AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LotteryPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94649C951C533678005E37AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotteryPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotteryPal.app/LotteryPal";
+			};
+			name = Debug;
+		};
+		94649C961C533678005E37AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LotteryPalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LotteryPal.app/LotteryPal";
+			};
+			name = Release;
+		};
+		94649C981C533678005E37AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotteryPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LotteryPal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		94649C991C533678005E37AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LotteryPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KW.LotteryPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LotteryPal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94649C601C533678005E37AB /* Build configuration list for PBXProject "LotteryPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94649C8F1C533678005E37AB /* Debug */,
+				94649C901C533678005E37AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94649C911C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94649C921C533678005E37AB /* Debug */,
+				94649C931C533678005E37AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94649C941C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94649C951C533678005E37AB /* Debug */,
+				94649C961C533678005E37AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94649C971C533678005E37AB /* Build configuration list for PBXNativeTarget "LotteryPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94649C981C533678005E37AB /* Debug */,
+				94649C991C533678005E37AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94649C5D1C533678005E37AB /* Project object */;
+}
