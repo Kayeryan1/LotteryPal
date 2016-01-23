@@ -73,7 +73,7 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Ss-hL-nZr">
-                                        <rect key="frame" x="153" y="158" width="240" height="128"/>
+                                        <rect key="frame" x="153" y="158" width="240" height="149"/>
                                         <subviews>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="text field" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DJt-Eu-lUo">
                                                 <rect key="frame" x="71" y="49" width="97" height="30"/>
@@ -92,9 +92,22 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9b-H7-LZK">
+                                                <rect key="frame" x="82" y="102" width="76" height="30"/>
+                                                <state key="normal" title="Confirm"/>
+                                                <connections>
+                                                    <action selector="confirmGoal:" destination="S4R-Ja-viH" eventType="touchUpInside" id="72r-Vs-Opq"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Jackpot Exceeds Goal!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEH-fu-qI0">
+                                        <rect key="frame" x="186" y="332" width="174" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -114,6 +127,10 @@
                         <outlet property="dataLabel" destination="cF2-Le-7mQ" id="3EH-BK-JV6"/>
                         <outlet property="editGoalButton" destination="8ET-he-cnr" id="Afa-4U-3IX"/>
                         <outlet property="editGoalView" destination="5Ss-hL-nZr" id="mDR-3y-L4m"/>
+                        <outlet property="goalConfirmButton" destination="y9b-H7-LZK" id="FRM-xB-TmR"/>
+                        <outlet property="goalExceededLabel" destination="oEH-fu-qI0" id="6bN-6Y-Rgc"/>
+                        <outlet property="goalLabel" destination="RrP-gb-5dn" id="dGV-WY-VVk"/>
+                        <outlet property="goalUpdateField" destination="DJt-Eu-lUo" id="6Np-t7-hyO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GmD-Rr-ZGN" sceneMemberID="firstResponder"/>
