@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1869084B1C542DA800D15460 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1869084A1C542DA800D15460 /* Reachability.swift */; };
 		18E4E29A1C533AF90066927C /* Poop.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E4E2991C533AF90066927C /* Poop.png */; };
 		942CAE8C1C54052300B6B97C /* pb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 942CAE8B1C54052300B6B97C /* pb_logo.png */; };
 		94649C691C533678005E37AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C681C533678005E37AB /* AppDelegate.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1869084A1C542DA800D15460 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		18E4E2991C533AF90066927C /* Poop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poop.png; sourceTree = "<group>"; };
 		942CAE8B1C54052300B6B97C /* pb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pb_logo.png; sourceTree = "<group>"; };
 		94649C651C533678005E37AB /* LotteryPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,6 +112,7 @@
 				94649C681C533678005E37AB /* AppDelegate.swift */,
 				94649C6A1C533678005E37AB /* RootViewController.swift */,
 				94649C6C1C533678005E37AB /* DataViewController.swift */,
+				1869084A1C542DA800D15460 /* Reachability.swift */,
 				94649C6E1C533678005E37AB /* ModelController.swift */,
 				94649C701C533678005E37AB /* Main.storyboard */,
 				94649C731C533678005E37AB /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 				94649C6B1C533678005E37AB /* RootViewController.swift in Sources */,
 				94649C6F1C533678005E37AB /* ModelController.swift in Sources */,
 				94649C6D1C533678005E37AB /* DataViewController.swift in Sources */,
+				1869084B1C542DA800D15460 /* Reachability.swift in Sources */,
 				94649C691C533678005E37AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
