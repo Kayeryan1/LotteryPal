@@ -22,6 +22,7 @@ class DataViewController: UIViewController {
     @IBOutlet weak var goalUpdateField: UITextField!
     @IBOutlet weak var goalExceededLabel: UILabel!
     @IBOutlet weak var goalLabel: UILabel!
+    @IBOutlet weak var jackpotLabel: UILabel!
     
 
     @IBAction func editGoal(sender: AnyObject) {
@@ -34,6 +35,7 @@ class DataViewController: UIViewController {
         editGoalView.hidden = true
         goalExceededLabel.hidden = true
         goalUpdateField.text=goal
+        jackpotLabel.text = "$ " + "\(jackpot!)" + "Million";
         goalLabel.text = "Goal: $" + goal + "mil";
         // Do any additional setup after loading the view, typically from a nib.
     }
@@ -45,12 +47,18 @@ class DataViewController: UIViewController {
         if (goalUpdateField.text != nil){
             goal = goalUpdateField.text!
         }
-        if (Int(goal)>=jackpot){
+        if (Int(goal)<=jackpot){
             goalExceededLabel.hidden = false;
         }
-        goalLabel.text = "Goal: $" + goal + "mil";        
+        else {
+            goalExceededLabel.hidden = true;
+        }
+        goalLabel.text = "Goal: $" + goal + "mil";
     }
 
+    @IBAction func updateGoal(sender: AnyObject) {
+        goalUpdateField.text = ""
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -58,7 +66,6 @@ class DataViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
     }
 
 

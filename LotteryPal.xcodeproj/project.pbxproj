@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18E4E29A1C533AF90066927C /* Poop.png in Resources */ = {isa = PBXBuildFile; fileRef = 18E4E2991C533AF90066927C /* Poop.png */; };
+		942CAE8C1C54052300B6B97C /* pb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 942CAE8B1C54052300B6B97C /* pb_logo.png */; };
 		94649C691C533678005E37AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C681C533678005E37AB /* AppDelegate.swift */; };
 		94649C6B1C533678005E37AB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6A1C533678005E37AB /* RootViewController.swift */; };
 		94649C6D1C533678005E37AB /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94649C6C1C533678005E37AB /* DataViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		18E4E2991C533AF90066927C /* Poop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Poop.png; sourceTree = "<group>"; };
+		942CAE8B1C54052300B6B97C /* pb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pb_logo.png; sourceTree = "<group>"; };
 		94649C651C533678005E37AB /* LotteryPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotteryPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94649C681C533678005E37AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94649C6A1C533678005E37AB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		94649C671C533678005E37AB /* LotteryPal */ = {
 			isa = PBXGroup;
 			children = (
+				942CAE8B1C54052300B6B97C /* pb_logo.png */,
 				18E4E2991C533AF90066927C /* Poop.png */,
 				94649C681C533678005E37AB /* AppDelegate.swift */,
 				94649C6A1C533678005E37AB /* RootViewController.swift */,
@@ -242,6 +245,7 @@
 				18E4E29A1C533AF90066927C /* Poop.png in Resources */,
 				94649C741C533678005E37AB /* Assets.xcassets in Resources */,
 				94649C721C533678005E37AB /* Main.storyboard in Resources */,
+				942CAE8C1C54052300B6B97C /* pb_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
